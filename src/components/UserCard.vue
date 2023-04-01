@@ -23,20 +23,16 @@
   <script>
   export default {
     name: 'UserСard',
-    data() {
-      return {
+    data: () => ({
         firstName: 'Игнатий',
         secondName: 'Иларионович',
         lastName: 'Богатов',
-      }
-    },
-    computed: {
-      
-    },
+    }),
+    
 }
 </script>
   
-<style lang="css" scoped>
+<!-- <style lang="scss" scoped>
     .user-card {
       margin-top: 40px;
     }
@@ -46,5 +42,5 @@
     h2 {
       margin-bottom: 14px;
     }
-</style>
+</style> -->
   
