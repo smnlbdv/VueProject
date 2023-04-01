@@ -1,17 +1,17 @@
 <template>
-  <div id="#app">
-    <user-card/>
+  <div id="app">
+    <my-components/>
   </div>
 </template>
 
 <script>
 
-import UserCard from "./components/UserСard.vue";
+import MyComponents from '@/components/MyComponents.vue'
 
 export default {
   name: 'App',
   components: {
-    UserCard  
+    MyComponents 
   }
 }
 </script>
